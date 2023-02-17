@@ -1,0 +1,78 @@
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ align-items: center;
+ background: linear-gradient(150deg, rgb(209, 50, 253), rgb(35, 248, 223));
+ display: flex;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-display: swap ;
+ height: inherit;
+ justify-content: center; 
+}
+
+.wrapper{
+  background: linear-gradient(300deg, rgb(209, 50, 253), rgb(35, 248, 223));
+  border: 1px;
+  border-radius: 13px;
+  border: 3px solid;
+  color: rgb(119, 221, 244);
+  backdrop-filter: rgb(240, 161, 161);
+  flex-basis: 540px;
+  height: 550px;
+  padding: 30px  40px;
+}
+
+.screen{
+  background-color: rgb(255, 255, 255);
+  border: solid 2px;
+  border-radius: 16px;
+  box-shadow: rgba(35, 35, 35, 0.1);
+  font-size: 30px;
+  overflow: auto;
+  padding: 20px;
+  text-align: right;
+  width: 500px;
+}
+
+.calc-button-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+
+}
+.calc-button{
+  border: 2px;
+  border-radius: 15px;
+  flex-basis: 20%;
+  font-family: inherit;
+  font-size: 40px;
+  height: 65px;
+  border: solid 1px;
+  border-color: aquamarine;
+  background: linear-gradient(180deg, rgb(222, 35, 235), rgb(181, 228, 26));
+}
+
+.calc-button:last-child:hover{
+  background-color: rgb(195, 255, 0);
+  color: inherit;
+}
+
+.double{
+  flex-basis: 47%;
+}
+
+.triple{
+  flex-basis: 73%;
+
+}
